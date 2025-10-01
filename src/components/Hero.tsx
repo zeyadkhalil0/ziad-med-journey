@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
-import heroImage from "@/assets/doctor-hero.jpg";
+import heroImage from "@/assets/doctor-hero.png";
 
 export const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -64,8 +64,9 @@ export const Hero = () => {
           </div>
         </div>
         
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <ArrowDown className="w-6 h-6 text-primary" />
+        <div className="absolute -bottom-16 left-1/2 -translate-x-1/2 animate-bounce cursor-pointer">
+          <ArrowDown className="w-6 h-6 text-primary" 
+          onClick={() => scrollToSection('about')}/>
         </div>
       </div>
     </section>
