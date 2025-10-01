@@ -16,7 +16,7 @@ export const Hero = () => {
           alt="Dr. Ziad Shehab"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/10 via-background/50 to-bg-black-50" />
       </div>
       
       <div className="container px-4 mx-auto relative z-10">
